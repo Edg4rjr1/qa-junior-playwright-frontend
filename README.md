@@ -15,23 +15,23 @@
 5.  Rodar os testes:
     `npx playwright test`
 
-### Estrutura dos Testes
+# TESTES
 
 - **Login.spec.js**  
   Testa diferentes cenários de login:
-  - Login com usuário e senha válidos
-  - Login com usuário ou senha inválidos
-  - Login com campos vazios (usuário ou senha)
+  1. Login com usuário e senha válidos
+  2. Login com usuário ou senha inválidos
+  3. Login com campos vazios (usuário ou senha)
 
 - **Carrinho.spec.js**  
   Testa funcionalidades do carrinho:
-  - Adição de produtos
-  - Remoção de produtos
-  - Validação da quantidade de itens no carrinho
+  1. Adição de produtos
+  2. Remoção de produtos
+  3. Validação da quantidade de itens no carrinho
 
 - **Compra.spec.js**  
   Testa o fluxo de finalização de compra:
-  - Adição de produtos ao carrinho
-  - Preenchimento do formulário de checkout
-  - Validação da mensagem de compra finalizada
+  1. Adição de produtos ao carrinho
+  2. Preenchimento do formulário de checkout
+  3. Validação da mensagem de compra finalizada
 
